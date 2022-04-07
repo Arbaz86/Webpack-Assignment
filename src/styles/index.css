@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 156, 156, 0.897);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: center;
+}
+#masai_logo {
+  margin-top: 10px;
+  height: 55px;
+  margin-right: 20px;
+}
+#nav-title {
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.noteDataDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text-input-div {
+  border: 1px solid rgba(171, 171, 171, 0.66);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.add-a-notes {
+  font-size: 20px;
+  padding: 20px;
+  color: rgb(61, 61, 61);
+}
+
+.titleNote {
+  color: rgb(0, 104, 145);
+  text-align: left;
+  margin-left: 200px;
+}
+
+#textarea {
+  width: 90%;
+  height: 100%;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid rgb(0, 142, 208);
+}
+
+#textarea:hover {
+  border: 1px solid rgb(0, 142, 208);
+  outline: 1px solid rgb(0, 142, 208);
+}
+
+#AddNopteBtn {
+  padding: 10px 20px;
+  margin: 15px;
+  color: white;
+  background-color: rgba(0, 156, 156, 0.897);
+  border: 0;
+  border-radius: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#AddNopteBtn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(9, 201, 201, 0.897);
+  box-shadow: rgba(7, 59, 138, 0.337) 0px 48px 100px 0px;
+}
+
+.showNotesdiv {
+  margin-top: 20px;
+}
+
+#yournotes-h1 {
+  padding: 20px;
+  border-top: 1px solid rgba(181, 181, 181, 0.659);
+  border-bottom: 1px solid rgba(181, 181, 181, 0.659);
+  width: 80%;
+  margin: auto;
+}
+
+.appendNotes-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.ifnotNotes {
+  color: rgb(95, 95, 95);
+  margin: 10px;
+  display: block;
+}
+
+.notesgrid-data {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.data-div-notes {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.countNotes {
+  padding-bottom: 10px;
+}
+
+.maindata-notes {
+  padding-bottom: 10px;
+}
+
+.removenotes {
+  padding: 10px 20px;
+  margin: 15px;
+  color: white;
+  background-color: rgba(0, 156, 156, 0.897);
+  border: 0;
+  border-radius: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.removenotes:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(9, 201, 201, 0.897);
+  box-shadow: rgba(7, 59, 138, 0.337) 0px 48px 100px 0px;
+}
